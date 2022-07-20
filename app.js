@@ -33,4 +33,26 @@ What are the processes that happen when you type “http://somesite.com/some/pag
   another server and retrieves it for the user.
   The server sends a response to the client.
 */
-  
+
+/*
+// Part Three
+async function getRequest() {
+  const res = await axios.get('');
+  console.log(res);
+}
+
+$('#get').on('click', async function(e) {
+  e.preventDefault();
+  await getRequest()
+});
+
+async function postRequest() {
+  const res = await axios.post('');
+  console.log(res);
+}
+
+$('#post').on('click', async function(e) {
+  e.preventDefault();
+  await postRequest()
+});
+*/
